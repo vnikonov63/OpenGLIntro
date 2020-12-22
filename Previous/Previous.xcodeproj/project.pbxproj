@@ -31,6 +31,7 @@
 		8C1F4F7B2591267100F711B1 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../usr/local/Cellar/glfw/3.3.2/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 		8C1F4F7D259126AD00F711B1 /* libGLEW.2.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.2.0.dylib; path = ../../../../usr/local/Cellar/glew/2.2.0/lib/libGLEW.2.2.0.dylib; sourceTree = "<group>"; };
 		8C1F4F8125912C8700F711B1 /* Application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
+		8C1F4F852591515C00F711B1 /* Basic.shader */ = {isa = PBXFileReference; lastKnownFileType = text; path = Basic.shader; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 		8C1F4F6F2591254700F711B1 /* Previous */ = {
 			isa = PBXGroup;
 			children = (
+				8C1F4F862591516800F711B1 /* res */,
 				8C1F4F8025912C6A00F711B1 /* src */,
 			);
 			path = Previous;
@@ -88,6 +90,22 @@
 				8C1F4F8125912C8700F711B1 /* Application.cpp */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		8C1F4F862591516800F711B1 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F4F872591516F00F711B1 /* Shaders */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		8C1F4F872591516F00F711B1 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F4F852591515C00F711B1 /* Basic.shader */,
+			);
+			path = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
